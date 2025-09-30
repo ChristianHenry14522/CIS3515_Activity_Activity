@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DisplayActivity">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/lyricsDisplayTextView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/lyrics"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So lift your eyes if you feel you can \n
+        Reach for a star and I\'ll show you a plan \n
+        I figured it out \n
+        What I needed was someone to show me \n \n
+
+        You know you can\'t fool me \n
+        I\'ve been loving you too long \n
+        It started so easy \n
+        You want to carry on (carry on) \n \n
+
+        Lost in love and I don\'t know much \n
+        Was I thinking aloud and fell out of touch? \n
+        But I\'m back on my feet and eager to be what you wanted \n \n
+
+        So lift your eyes if you feel you can (feel you can) \n
+        Reach for a star and I\'ll show you a plan (show you a plan) \n
+        I figured it out \n
+        What I needed was someone to show me (oh, oh-oh) \n \n
+
+        You know you can\'t fool me \n
+        I\'ve been loving you too long (I\'ve been loving you too long) \n
+        It started so easy \n
+        You want to carry on (carry on) \n \n
+
+        Lost in love and I don\'t know much \n
+        Was I thinking aloud and fell out of touch? \n
+        But I\'m back on my feet and eager to be what you wanted \n \n
+
+        You know you can\'t fool me \n
+        I\'ve been loving you too long \n
+        It started so easy \n
+        You want to carry on (on, carry on) \n \n
+
+        Lost in love and I don\'t know much \n
+        Was I thinking aloud and fell out of touch? \n
+        But I\'m back on my feet and eager to be what you wanted \n \n
+
+        Now I\'m lost (lost in love and I don\'t know much) \n
+        Lost in love (was thinking aloud and fell out of touch) \n
+        Lost in love (but I\'m back on my feet and eager to be what you wanted) \n
+        Lost in love \n
+        Now I\'m lost (lost in love and I don\'t know much) \n
+        I\'m lost in love (was thinking aloud and fell out of touch) \n
+        I\'m lost in love (but I\'m back on my feet and eager to be what you wanted) \n
+        Lost in love \n"
+        android:textSize="20sp" />
+</LinearLayout>
